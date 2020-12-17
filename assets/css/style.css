@@ -1,0 +1,44 @@
+body{font-family: 'Montserrat', sans-serif;margin:0}
+p, .content b{font-family: 'PT Serif', serif;font-size:20px}
+h2, h3, h1 {margin: 10px 0}
+.header{background-size: cover; background-attachment: fixed;background-position: center}
+.image-bg{display: flex;flex-direction:column;justify-content: left;color: #ffffff;margin-left:30%;text-align: right}
+.btn-home-img{position:fixed;margin: 0 auto;right:5%;top:5%;z-index:99}
+.header h1{font-size: 700%;margin:15% 0 0 0;border-bottom: 3px solid #ffffff;width: 850px;text-shadow: #000 2px 2px}
+.header h2{font-size: 2em; font-weight: 100;margin-right: 10%;text-shadow: #000 2px 2px}
+.header h3{margin-bottom: 20%;text-shadow: #000 2px 2px;width: 50%;margin-left: 40%}
+.content{margin: 0em 20%;box-sizing: border-box; border: 0px solid #fff;line-height: 180%;}
+footer {height: auto;background: #000;color: #eee;text-align: center;padding: 1em;overflow: hidden;font-size: 12px;font-family: 'Lato', serif;}
+.data {background: url('../images/prison.png') no-repeat; background-size: cover; background-position: center; display: flex; flex-direction: column; align-items: center; height: auto;margin: 0em 20%;}
+.data h2{color: #ffffff;font-size: 400%;line-height: 1; margin: 10% 30% 0;text-align: center;}
+.data p{color: #ffffff; margin: 1em 5em;font-family: 'Montserrat', sans-serif;}
+.button {background: #000;padding: 10px 50px;border: 0.5px solid #fff;color: #fff;text-decoration: none;font-weight: bolder;margin-bottom: 10%}
+.button:hover {background: #9a9191;color: #ffffff;border: 0.5px solid #ffffff}
+.yusman{margin: 1% 20%;display: flex;background: #fafafa;padding-right: 2px}
+.yusman img{width: 60%;}
+.yusman-text{margin-left: 2%;width: 50%;margin-top: 10%}
+.yusman-text h2{color: #9a9191;font-size: 300%;line-height: 1;margin-bottom: 5%;width: 80%;text-shadow: 1px 1px black}
+.yusman-text p{line-height: 120%; margin-bottom: 10%;font-family: 'Montserrat', sans-serif;}
+.quote {height: 30%;display:grid;list-style-type:none;margin: 0 20%;padding:0;grid-template-columns: repeat(2 , 50%);}
+.quote li {line-height: 180%;}
+.quote-text{display: flex;align-items: center }
+.quote-text p {font-family: 'Montserrat', sans-serif;color: #9a9191;font-size: 2.6em;line-height: 1;font-weight: 800;padding:0 1em;margin: 0}
+ul.tabs{display:grid;list-style-type:none;padding:0;grid-template-columns: repeat(4 , 25%);}
+ul.tabs li{background: #ffffff;border: 0.5px solid #9a9191;color: #9a9191;text-align: center;padding: 10px 50px;cursor: pointer;margin: 1%}
+ul.tabs li:hover{background: #9a9191;color: #ffffff;}
+ul.tabs li.current{background: #9a9191;color: #ffffff;border: 0.5px solid #ffffff}
+.tab-content{display: none;background: #ededed;padding: 15px;}
+.tab-content.current{display: block;}
+.head-tab{display:flex;}
+.tab-content h3{width: 95%;float: left;}
+.close{margin: 10px 0;width: 5%;float: right;font-size: 50px;font-weight: bold}
+.close:hover{cursor: pointer;color: #9a9191;}
+.caption {font-size: 12px;line-height: 1.5}
+.language {position: absolute;z-index: 2000;cursor: pointer;left: 5px;top:5px;}
+.language a {display: flex;align-items: center;padding: 5pt;background-color: #fff;}
+a#id-country-dropdown, a#en-country-dropdown{border: 1px solid black;}
+.language img {width: 20px;}
+.dropdown {background-color: #fff;padding: 5pt;display: none;border: 1px solid black;}
+.country{display: none;}
+.country.active{display: block;}
+.en-content {display: none;}
